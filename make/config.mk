@@ -31,7 +31,7 @@ ADD_CFLAGS =
 USE_OPENMP = 1
 
 # whether use HDFS support during compile
-USE_HDFS = 0
+USE_HDFS = 1
 
 # whether use AWS S3 support during compile
 USE_S3 = 0

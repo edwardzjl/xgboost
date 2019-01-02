@@ -15,7 +15,7 @@ if sys.platform.startswith("linux"):
 
 CONFIG = {
     "USE_OPENMP": "ON",
-    "USE_HDFS": "OFF",
+    "USE_HDFS": "ON",
     "USE_AZURE": "OFF",
     "USE_S3": "OFF",
 

@@ -1,12 +1,14 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 import xgboost as xgb
 
 # Always call this before using distributed module
 xgb.rabit.init()
 
 # Load file, file will be automatically sharded in distributed mode.
-dtrain = xgb.DMatrix('../../demo/data/agaricus.txt.train')
-dtest = xgb.DMatrix('../../demo/data/agaricus.txt.test')
+#dtrain = xgb.DMatrix('../../demo/data/agaricus.txt.train')
+#dtest = xgb.DMatrix('../../demo/data/agaricus.txt.test')
+dtrain = xgb.DMatrix('hdfs:///user/root/xgb-demo/train/agaricus.txt.train')
+dtest= xgb.DMatrix('hdfs:///user/root/xgb-demo/test/agaricus.txt.test')
 
 # Specify parameters via map, definition are same as c++ version
 param = {'max_depth': 2, 'eta': 1, 'silent': 1, 'objective': 'binary:logistic' }
