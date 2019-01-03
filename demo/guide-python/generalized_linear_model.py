@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 import xgboost as xgb
 ##
 #  this script demonstrate how to fit generalized linear model in xgboost

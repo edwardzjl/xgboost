@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 # this is the example script to use xgboost to train
 import numpy as np
 import xgboost as xgb

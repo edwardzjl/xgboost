@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 import xgboost as xgb
 from sklearn.datasets import load_svmlight_file
 
