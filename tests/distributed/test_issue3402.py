@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 import xgboost as xgb
 
 xgb.rabit.init()

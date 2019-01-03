@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 import xgboost as xgb
 
 # Always call this before using distributed module
